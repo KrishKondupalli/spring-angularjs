@@ -40,5 +40,13 @@
     <cache name="com.mycompany.myapp.domain.PersistentAuditEvent"
            timeToLiveSeconds="3600">
     </cache>
+
+    <cache name="com.mycompany.myapp.domain.Image"
+           timeToLiveSeconds="3600">
+    </cache>
+
+    <cache name="com.mycompany.myapp.domain.Category"
+           timeToLiveSeconds="3600">
+    </cache>
 </ehcache>
 
